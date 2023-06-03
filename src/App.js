@@ -9,19 +9,19 @@ function App() {
     <div>
 			<Navbar />
 			<Carousel />
-      <div className="container">
+      <div className="container text-center">
         <div className="row">
           <Card />
           <Card />
           <Card />
         </div>
-        <hr class="featurette-divider"></hr>
+        <hr className="featurette-divider"></hr>
         <Featurette />
-        <hr class="featurette-divider"></hr>
+        <hr className="featurette-divider"></hr>
         <Featurette />
-        <hr class="featurette-divider"></hr>
+        <hr className="featurette-divider"></hr>
         <Featurette />
-        <hr class="featurette-divider"></hr>
+        <hr className="featurette-divider"></hr>
       </div>
       <Footer />
 		</div>
